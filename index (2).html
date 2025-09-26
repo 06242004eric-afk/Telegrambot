@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Membership Bot</title>
+    
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '88af23886a3d0ac100fc22a2f8054bfd1069427f';
+    window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+        c.type='text/javascript';c.charset='utf-8';c.async=true;
+        c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+    </script>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .bot-info {
+            background: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .feature {
+            margin: 15px 0;
+            padding: 10px;
+            background: #f9f9f9;
+            border-left: 4px solid #007acc;
+        }
+        .live-chat-btn {
+            background: #007acc;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 20px 10px;
+            transition: background 0.3s;
+        }
+        .live-chat-btn:hover {
+            background: #005a99;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 Tesla Membership Card Bot</h1>
+        
+        <div class="bot-info">
+            <h2>Welcome to our Tesla Membership Bot!</h2>
+            <p>Our Telegram bot helps you purchase Tesla membership cards quickly and securely.</p>
+        </div>
+        
+        <div class="feature">
+            <h3>🎫 Generate Membership Cards</h3>
+            <p>Get your Tesla membership card for just $500 USD with fast 3-day delivery.</p>
+        </div>
+        
+        <div class="feature">
+            <h3>💳 Secure Payment</h3>
+            <p>Pay safely using your Apple Card with our secure payment system.</p>
+        </div>
+        
+        <div class="feature">
+            <h3>📊 Order Tracking</h3>
+            <p>Track your order status and delivery progress in real-time.</p>
+        </div>
+        
+        <div class="feature">
+            <h3>💬 Live Support</h3>
+            <p>Get instant help using the live chat widget on this page!</p>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <p><strong>Ready to get started?</strong></p>
+            <p>Find our bot on Telegram and use /start to begin!</p>
+            
+            <button class="live-chat-btn" onclick="smartsupp('chat:open')">💬 Live Chat</button>
+        </div>
+    </div>
+</body>
+</html>
